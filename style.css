@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+
+	justify-content: center;
+}
+main {
+	padding: 20px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+
+
+.table>tbody>tr>td {
+	width: 75px;
+	height: 75px;
+	vertical-align: middle;
+}
+
+th, td {
+	text-align: center;
+	font-size: 15px;
+}
+
+h1 {
+	margin-bottom: 36px;
+	margin-top: 36px;
+}
+
+button {
+	margin-right: 4px;
+}
+
+#today:hover {
+	background-color: lightgrey;
+}
+
+.holiday {
+	color: red;
+}
